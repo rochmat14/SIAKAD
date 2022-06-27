@@ -1,0 +1,487 @@
+body {
+    font-family: sans-serif;
+    
+}
+
+.bg-wheat {
+    background-color: wheat;
+}
+
+label.error{
+    color: red;
+}
+
+#cpassword-error {
+    position: absolute;
+    margin-top: 37px;
+}
+
+/* =========================================================================== */
+/* halaman admin */
+.card-register-admin {
+    margin-top: 1%;
+    margin-bottom: 0%;
+}
+
+ /* halaman login */
+.card-login {
+    margin-top: 6%;
+}
+
+.label-form-login {
+    color: white;
+    font-weight: bold;
+}
+
+.input-form-login {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+}
+
+.btn-login {
+    border: none;
+    border-radius: 5px;
+    color: wheat;
+    font-size: 20px;
+    font-weight: bold;
+    background: -webkit-linear-gradient(left, #a6f77b, #2dbd6e);
+    transition: box-shadow, 0.3s;
+}
+
+.btn-login:hover {
+    box-shadow: 0px 0px 7px 4px wheat;
+}
+
+.btn-login:active, .btn-login:focus {
+    outline: none;
+}
+
+.validation-form-login {
+    display: block;
+}
+/* =========================================================================== */
+
+.header {
+    background-color: #68B0AB;
+    padding-left: 15px;
+    padding-top: 18px;
+    padding-bottom: 12px;
+}
+
+.header img {
+    width: 60px;
+    float: left;
+    margin-right: 16px;
+}
+
+.header .title1 {
+    font-size: 30px;
+    line-height: 20px;
+    color: wheat;
+}
+
+.header .title2 {
+    line-height: 5px;
+    color: wheat;
+}
+
+header nav {
+    background: #006A71;
+    height: 41px;
+    padding: 3px;
+}
+
+#toggle {
+    width: 56px;
+    height: 35px;
+    border: 1px solid #006A71;
+    border-radius: 5px;
+    background: #68B0AB;
+    padding: 6px;
+    cursor: pointer;
+}
+
+#toggle span {
+    width: 42px;
+    height: 4px;
+    background: wheat;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.col {
+    margin-top: 1%;
+}
+
+thead {
+    background: #68B0AB;
+    color:white;
+}
+
+.card-custom {
+    box-shadow: 1px 1px 10px 0px;
+    /* padding: 15px; */
+    /* border-radius: 5px; */
+    background: -webkit-linear-gradient(bottom, #68B0AB, wheat)
+}
+
+.btn-mr-1{
+    margin-right:1%
+}
+
+.fl{
+    float: left;
+}
+
+.fr{
+    float: right;
+}
+
+/* style sidebar */
+#sidebar-container {
+    min-height: 100vh;   
+    background-color: wheat;
+    padding: 0;
+    transition: margin-left, 0.5s;
+    box-shadow: 0px 5px 10px 5px #68B0AB;
+}
+
+.sidebar-expanded {
+    width: 230px;
+}
+
+.list-group-item {
+    background-color: transparent;
+    border: none;
+}
+
+.sidebar-active {
+    margin-left: -230px;
+}
+
+.a-hover:hover {
+    text-decoration: none;
+    color: #006A71;
+}
+
+.dropdown-container li a {
+    color: wheat;
+}
+
+.dropdown-container li a:hover {
+    text-decoration: none;
+}
+
+.list-btn {
+    margin-left: -40px;
+    display: none;
+}
+
+.dropdown {
+    cursor: pointer;
+}
+
+.jumbotron {
+    padding-top: 25px;
+}
+
+.text-bl{
+    color:#006A71;
+}
+
+.text-list {
+    color: wheat;
+}
+
+.bg-bl{
+    background: #68B0AB;
+}
+
+.ml--5 {
+    margin-left: -5px;
+}
+
+.no-btn {
+    border: none;
+    background: none;
+}
+
+/* menghilangkan garis luar yang berwarna biru pada button ketika di klik */
+.no-outline-f:focus {
+    outline: none;
+}
+
+.p-inline {
+    display: inline;
+}
+
+.w-42-p {
+    width: 42%;
+}
+
+.w-10-p {
+    width: 10%;
+}
+
+.w-2-p {
+    width: 2%;
+}
+
+/* .bg-gradient {
+    background: -webkit-linear-gradient(bottom, #68B0AB, wheat);
+} */
+
+/* home */
+.grid-home {
+    display: flex;
+    width: 100%;
+    height: 150px;
+    padding: 2px;
+}
+
+/* halaman home */
+.box {
+    margin: 5px;
+}
+
+.box h3 {
+    text-decoration: underline ;
+}
+
+.satu {
+    flex-grow: 1;
+    background-color: wheat;
+    color: #006A71;
+}
+
+.dua {
+    flex-grow: 1;
+    background-color: #68B0AB;
+    color: white;
+}
+
+.tiga {
+    flex-grow: 1;
+    background-color: #006A71;
+    color:wheat;
+}
+
+/* halaman guru */
+.table-android {
+    display: none;
+}
+
+/* halaman pengumuman */
+.table-pengumuman-android {
+    display: none;
+}
+
+/* halaman guru */
+.table-guru-android {
+    display: none;
+}
+
+/* halaman kelas */
+.table-kelas-android {
+    display: none;
+}
+
+/* halaman siswa */
+.table-siswa-android {
+    display: none;
+}
+
+/* halaman mata pelajaran */
+.table-mapel-android {
+    display: none;
+}
+
+/* halaman mata pelajaran */
+.table-jadwal-android {
+    display: none;
+}
+
+/* halaman kkm */
+.table-input-kkm-android {
+    display: none;
+}
+
+/* halaman ekstrakulikuler */
+.table-ekstrakulikuler-android {
+    display: none;
+}
+
+/* halaman eskul siswa */
+.table-siswa-eskul-android {
+    display: none;
+}
+
+/* halaman tahun ajaran */
+.table-tahun-ajaran-android {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    /* halaman regiser admin */
+    .card-register-admin {
+        margin-top: 23%;
+        margin-bottom: 34%;
+    }
+    
+    /* halaman login */
+    .card-login {
+        margin-top: 36%;
+        margin-bottom: 49%;
+    }
+
+    /* bagian header */
+    .header {
+        padding-bottom: 1px;
+    }
+    
+    .header .title-header1 {
+        font-size: 20px;
+        line-height: 0px;
+        text-align: center;
+    }
+
+    .header .title-header2 {
+        font-size: 19px;
+        text-align: center;
+    }
+
+    .header .title-header3 {
+        font-size: 14px;
+        line-height: 15px;
+    }
+    
+    /* bagian sidebar */
+    #sidebar-container {
+        z-index: 2;
+        box-shadow: none;
+    }
+
+    .sidebar-expanded {
+        margin-left: -230px;
+    }
+    
+    .sidebar-active {
+        margin-left: 0px;
+    }
+    
+    /* bagian content */
+    .col {
+        position: absolute;
+        z-index: 1;
+    }
+    
+    /* halaman home */
+    .grid-home {
+        display: block;
+    }
+
+    /* halaman home */
+    .box {
+        margin-bottom: 15px;
+    }
+
+    /* halaman pengumuman */
+    .table-web {
+        display: none;
+    }
+
+    .table-android {
+        display: inline-table;
+    }
+    
+    .table-pengumuman-web {
+        display: none;
+    }
+
+    .table-pengumuman-android {
+        display: inline-table;
+    }
+    
+    /* halaman guru */
+    .table-guru-web {
+        display: none;
+    }
+
+    .table-guru-android {
+        display: inline-table;
+    }
+
+    /* halaman kelas */
+    .table-kelas-web {
+        display: none;
+    }
+
+    .table-kelas-android {
+        display: inline-table;
+    }
+
+    /* halaman siswa */
+    .table-siswa-web {
+        display: none;
+    }
+
+    .table-siswa-android {
+        display: inline-table;
+    }
+
+    /* halaman mata pelajaran */
+    .table-mapel-web {
+        display: none;
+    }
+
+    .table-mapel-android {
+        display: inline-table;
+    }
+
+    /* halaman mata pelajaran */
+    .table-jadwal-web {
+        display: none;
+    }
+
+    .table-jadwal-android {
+        display: inline-table;
+    }
+
+    /* halaman kkm */
+    .table-input-kkm-web {
+        display: none;
+    }
+
+    .table-input-kkm-android {
+        display: inline-table;
+    }
+
+    /* halaman ekstrakulikuler */
+    .table-ekstrakulikuler-web {
+        display: none;
+    }
+
+    .table-ekstrakulikuler-android {
+        display: inline-table;
+    }
+
+    /* halaman siswa eskul */
+    .table-siswa-eskul-web {
+        display: none;
+    }
+
+    .table-siswa-eskul-android {
+        display: inline-table;
+    }
+
+    /* halaman tahun ajaran */
+    .table-tahun-ajaran-web {
+        display: none;
+    }
+
+    .table-tahun-ajaran-android {
+        display: inline-table;
+    }
+}
